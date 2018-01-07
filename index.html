@@ -43,17 +43,33 @@
       </ul>
   </nav>
   <section class="search-section">
-    <div class="top-icons"><img class="search-icons" src="assets/hamburger.svg"></div>
+    <div class="top-icons hamburger-div">
+      <img class="search-icons hamburger-icon" src="assets/hamburger.svg">
+    </div>
     <input class="search" type="text" name="Search" placeholder="Search for a job, task, or resume">
-   <div class="top-icons"><img class="search-icons" src="assets/add-user.svg"></div>
-   <div class="top-icons"><img class="search-icons" src="assets/calendar.svg"></div>
-   <div class="top-icons"><img class="search-icons" src="assets/menu .svg"></div>
+   <div class="top-icons add-user-div">
+      <img class="search-icons add-user-icon " src="assets/followers.svg">
+   </div>
+   <div class="top-icons calendar-div">
+    <img class="search-icons calendar-icon" src="assets/calendar.svg">
+   </div>  
+   <div class="top-icons menu-div">
+    <img class="search-icons menu-icon" src="assets/menu.svg">
+   </div>
   </section>
   <section class="intro-section">
-    <h1 class="bio">Front End Developer</h1>
-    <p class="bio">Denver, CO</p>
-    <p class="bio">Preview this Post</p>
-    <ul>
+    <h1 class="intro-heading">Front End Developer</h1>
+     <div class="intro-buttons-div">
+      <button class="intro-button-main"><img class="intro-button-icon" src="assets/open.svg"> Open</button>
+      <button class="intro-buttons intro-button-circle"><img class="intro-button-icon" src="assets/bookmark.svg"></button>
+      <button class="intro-buttons intro-button-circle"><img class="intro-button-icon" src="assets/edit.svg"></button>
+      <button class="intro-buttons intro-button-circle"><img class="intro-button-icon" src="assets/university.svg"></button>  
+    </div>
+    <div class="intro-text-div">
+      <p class="intro-text"><img  class="intro-location" src="assets/location.svg"> Denver, CO</p>
+      <p class="intro-text intro-text-preview">Preview this Post</p>
+    </div>
+    <ul class="heading-nav">
       <li class="intro-nav">SUMMARY</li>
       <li class="intro-nav">APPLICANTS</li>
       <li class="intro-nav">JOB BOARD</li>
@@ -64,10 +80,105 @@
     </ul>
   </section>
   <section class="graph-section">
-    <p>hello</p>
+    <div class="donut-graphs"></div>
+      <svg class="donut-graph" viewBox="0 0 42 42" class="donut">
+        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#EEF2F6"></circle>
+        <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#68B7BD" stroke-width="3" stroke-dasharray="80 20" stroke-dashoffset="75"></circle>
+      </svg>
+      <svg class="donut-graph" viewBox="0 0 42 42" class="donut">
+       <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#EEF2F6"></circle>
+        <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#43A1EE" stroke-width="3" stroke-dasharray="40 60" stroke-dashoffset="75"></circle>
+      </svg>
+      <svg  class="donut-graph" viewBox="0 0 42 42" class="donut">
+        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#EEF2F6"></circle>
+       <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+       <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#A76DA9" stroke-width="3" stroke-dasharray="25 75" stroke-dashoffset="75"></circle>
+      </svg>
+    </div>
+    <div class="bar-chart">
+      <img class="bar-chart" alt="A bar chart showing output per week" src="assets/bar-chart.png">
+    </div>
+    <button class=" donut-graph-button graph-buttons">Totals - out of 5,231 views</button>
+    <button class="bar-chart-button graph-buttons">Applicants/Day</button>
+    <div class="graph-section-border">
+      <hr class="graph-line-left"><img class="graph-arrow" src="assets/graph-arrow.svg"><hr class="graph-line-right">
+    </div>
   </section>
   <section class="resume-section">
-    <p>hello</p>
+    <article class="job-description">
+      <section class="description-header">
+      <h3 class="description-header-text">Job Description</h3>  
+      <button class="description-header-button"><img class="description-button-icon" src="assets/edit.svg">Edit</button>    
+      </section>
+      <section class="description-content">
+        <div class="description-content-div">
+          <h4 class="description-content-title">Position Title</h4>
+          <p class="description-content-text position-title">Customer Service Representative</p>
+        </div>
+        <hr class="description-content-hr">
+        <div class="description-content-div">
+          <h4 class="description-content-title">Location</h4>
+          <p class="description-content-text location">Denver, CO</p>
+        </div>
+        <hr class="description-content-hr">
+        <div class="description-content-div">
+          <h4 class="description-content-title">Employment Type</h4>
+          <p class="description-content-text">Full-time</p>
+        </div>
+        <hr class="description-content-hr">
+        <div class="description-content-div">
+          <h4 class="description-content-title">Status</h4>
+          <p class="description-content-text status">Open</p>
+        </div>
+        <hr class="description-content-hr">
+         <div class="description-content-div">
+          <h4 class="description-content-title">Experience</h4>
+          <p class="description-content-text experience-level">Mid-level</p>
+        </div>
+        <hr class="description-content-hr">
+        <div class="description-content-div">
+          <h4 class="description-content-title job-description-title">Description</h4>
+          <p class="description-content-text job-description-text">The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich</p>
+        </div>
+        <hr class="description-content-hr">
+        <div class="description-content-div">
+          <h4 class="description-content-title">Hiring Lead</h4>
+          <p class="description-content-text hiring-lead"><img class="hiring-lead-photo" src="assets/alan.jpg">Alan Charles</p>
+        </div>
+        <hr class="description-content-hr">
+        <div class="description-content-div">
+          <h4 class="description-content-title">Approved Salary</h4>
+          <p class="description-content-text salary">$85,000</p>
+        </div>   
+      </section>
+    </article>
+    <section class="link-section">
+      <button class="link-button facebook-button"><img class="link-button-icon" src="assets/facebook.svg">Post to Facebook</button>
+      <button class="link-button twitter-button"><img class="link-button-icon" src="assets/twitter.svg"> Tweet this job</button>
+      <button class="link-button linkedin-button"><img class="link-button-icon" src="assets/linkedin.svg">Post to Linkedin</button>
+      
+      <h3 class="link-header"><img class="link-header-icon" src="assets/globe.svg"> Link to this Job</h3>
+      <p class="link-text">Lorem ipsum dolor sit amet, consectutor adipis cin elit, Integer emolis neque eget vestibpend</p>
+      <form class="link-input-form">
+        <input class="link-input" type="text" name="link to this job" placeholder="http://loremipsum.dol/sit.amet...">
+        <button class="link-form-button">Copy</button>
+      </form>
+      <hr class="link-hr">
+      <h3 class="link-header"><img class="link-header-icon" src="assets/widget.svg">Use the Widget Button</h3>
+      <p class="link-text">This widget embeds the buttons for sharing the job for submitting a resume on your website</p>
+      <form class="link-input-form">
+        <input class="link-input" type="text" name="link to this job" placeholder="<script type='text/javascript's...">
+        <button class="link-form-button">Copy</button>
+      </form>
+      <hr class="link-hr">
+      <h3 class="link-header"><img class="link-header-icon" src="assets/airplane.svg">Upload Resumes by Email</h3>
+      <p class="link-text">You can automatically upload multiple resumes to this job by emailing the address below</p>
+      <form class="link-input-form">
+        <input class="link-input" type="text" name="link to this job" placeholder="tomtizzy@gmail.com">
+      </form>
+    </section>
   </section>
 </body>
 </html>
