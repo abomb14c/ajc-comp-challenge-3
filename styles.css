@@ -83,6 +83,7 @@ ul {
   background-image: url('assets/calendar-white.svg');
 }
 
+
 .description-header {
   background-color: #717E93;
   color: #ffffff;
@@ -375,6 +376,11 @@ ul {
 
 .location-icon:hover {
   background-image: url('assets/location-white.svg');
+}
+
+.nav-header {
+  font-size: 11px;
+  color: #A4ADBD;
 }
 
 .main,
