@@ -10,7 +10,7 @@ nav {
   background-color: #374050;
   color: #ffffff;
   float: left;
-  height: 1371px;
+  height: 1384px;
   margin: 0;
   position: relative;
   width: 15%;
@@ -35,14 +35,29 @@ section {
 ul {
   list-style: none;
   padding: 0;
+  margin-bottom: 30px;
 }
 
 .add-user-div {
   border-left: 1px solid gray;
+  background-image: url("assets/users.svg");
+  background-size: 30px;
+  background-repeat:  no-repeat;
+  background-position: center;
 }
 
-.add-user-icon:hover {
-  background-image: url('assets/followers-white.svg');
+.add-user-div:hover {
+  background-image: url("assets/users-white.svg");
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+
+.administrative-icon {
+  background-image: url("assets/administrative.svg");
+}
+
+.administrative-icon:active {
+  background-image: url("assets/administrative-checked.svg");
 }
 
 .bar-chart {
@@ -52,8 +67,12 @@ ul {
 }
 
 .bar-chart-button {
+  color: #62697B;
+  border-radius: 30px;
   float: right;
+  height: 30px;
   margin: 10px 200px;
+  width: 100px;
 }
 
 .bio-article {
@@ -64,9 +83,12 @@ ul {
 }
 
 .bio-dropdown {
+  display: inline-block;
   height: 10px;
+  margin-bottom: 2px;
   margin-left: 5px;
   width: 10px;
+  vertical-align: middle;
 }
 
 .bio-name {
@@ -77,12 +99,56 @@ ul {
 .calendar-div {
   border-right: 1px solid gray;
   border-left: 1px solid gray;
+  background-image: url("assets/calendar.svg");
+  background-size: 30px;
+  background-repeat:  no-repeat;
+  background-position: center;
+}
+
+.calendar-div:hover {
+  background-image: url('assets/calendar-white.svg');
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+
+.calendar-icon {
+  background-image: url("assets/calendar.svg");
 }
 
 .calendar-icon:hover {
-  background-image: url('assets/calendar-white.svg');
+  background-image:  url("assets/calendar-white.svg");
 }
 
+.chart-text {
+  fill: #62697B;
+}
+
+.chart-number {
+  color: #62697B;
+  font-size: 0.5em;
+  line-height: 1;
+  text-anchor: middle;
+/*  -moz-transform: translateY(-0.25em);
+  -ms-transform: translateY(-0.25em);*/
+  /*-webkit-transform: translateY(-0.25em);
+  transform: translateY(-0.25em);*/
+}
+
+.chart-label {
+  color: #62697B;
+  font-size: 0.15em;
+  text-anchor: middle;
+ /* -moz-transform: translateY(0.7em);
+  -ms-transform: translateY(0.7em);
+  -webkit-transform: translateY(0.7em);*/
+  transform: translateY(0.5em);
+}
+
+.description-button-icon {
+  height: 11px;
+  margin-right: 5px;
+  width: 11px;
+}
 
 .description-header {
   background-color: #717E93;
@@ -94,9 +160,14 @@ ul {
   width: 100%;
 }
 
-.description-button-icon {
-  height: 15px;
-  width: 15px;
+.description-header-button {
+  background-color: #7F8BA4;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  height: 25px;
+  margin-left: 10px;
+  width: 60px;
 }
 
 .description-content-div {
@@ -121,13 +192,12 @@ ul {
   margin-left: 30px;
 }
 
-.description-header-button {
-  background-color: #7F8BA4;
-  border: none;
-  color: #ffffff;
-  height: 25px;
-  margin-left: 10px;
-  width: 60px;
+.design-icon {
+  background-image: url("assets/design.svg");
+}
+
+.design-icon:active {
+  background-image: url("assets/design-checked.svg");
 }
 
 .donut-graph {
@@ -137,13 +207,25 @@ ul {
 }
 
 .donut-graph-button {
+  color: #62697B;
   margin: 10px 270px;
+  border-radius: 30px;  
+  height: 30px;
+  width: 160px;
 }
 
 .donut-graphs {
   display: flex;
   flex-direction: row;
   margin: 20px 20px; 
+}
+
+.executive-icon {
+  background-image: url("assets/executive.svg");
+}
+
+.executive-icon:active {
+  background-image: url("assets/executive-checked.svg");
 }
 
 .experience-level {
@@ -171,7 +253,7 @@ ul {
 .graph-section {
   background-color: #EEF2F6; 
   display: inline-block;
-  height: 360px;
+  height: 373px;
 }
 
 .graph-section-border {
@@ -184,10 +266,20 @@ ul {
 
 .hamburger-div {
   border-right: 1px solid gray;
+  background-image: url("assets/hamburger.svg");
+  background-size: 30px;
+  background-repeat:  no-repeat;
+  background-position: center;
+}
+
+.hamburger-div:hover {
+  background-image: url('assets/hamburger-white.svg');
+  background-size: 30px;
+  background-repeat: no-repeat;
 }
 
 .hamburger-icon:hover {
-  background-image: url('assets/hamburger-white.svg');
+  visibility: hidden;
 }
 
 .heading-nav {
@@ -200,9 +292,15 @@ ul {
 
 .hiring-lead-photo {
   border-radius: 50%;
+  display: inline-block;
   height: 25px;
   margin-right: 10px;
   width: 25px;
+  vertical-align: middle;
+}
+
+.home-icon {
+  background-image: url('assets/home.svg');
 }
 
 .home-icon:hover {
@@ -214,6 +312,42 @@ ul {
   height: 40px;
   margin-right: 10px;
   width: 40px;
+  background-size: 17px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.intro-buttons: hover {
+  background-size: 17px;
+  background-repeat: no-repeat;
+
+}
+
+.intro-button-bookmark {
+  background-image: url('assets/bookmark.svg');
+}
+
+.intro-button-bookmark:hover {
+  background-color: #46A5F4;
+  background-image: url('assets/bookmark-white.svg');
+}
+
+.intro-button-edit {
+  background-image: url('assets/edit.svg');
+}
+
+.intro-button-edit:hover {
+  background-color: #46A5F4;
+  background-image: url('assets/edit-white.svg');
+}
+
+.intro-button-university {
+  background-image: url('assets/university.svg');
+}
+
+.intro-button-university:hover {
+  background-color: #46A5F4;
+  background-image: url('assets/university-white.svg');
 }
 
 .intro-buttons-div {
@@ -228,15 +362,35 @@ ul {
 }
 
 .intro-button-main {
-  border-radius: 33%;
-  height: 40px;
-  margin-right: 10px;
-  width: 90px;
+    background-image: url(assets/open.svg);
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 14px;
+    height: 40px;
+    margin-right: 10px;
+    padding-left: 21px;
+    width: 90px;
+    vertical-align: middle;
 }
 
+.intro-button-main:hover {
+  background-color: #46A5F4;
+  background-image: url(assets/open-white.svg);
+  background-size: 17px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  color: #ffffff;
+}
+
+
 .intro-button-icon {
+  display: inline-block;
   height: 15px;
   width: 15px;
+  vertical-align: bottom;
 }
 
 .intro-heading {
@@ -248,6 +402,13 @@ ul {
   display: inline-block;
   font-size: 12px;
   margin-left: 30px;
+}
+
+.intro-nav:hover {
+  color: #000000;
+  font-weight: bold;
+  border-bottom: 5px solid #46A5F4;
+  padding-bottom: 15px;
 }
 
 .intro-location {
@@ -294,8 +455,16 @@ ul {
   margin-bottom: 89px;
 }
 
+.job-boards-icon {
+  background-image: url("assets/job-board.svg");
+}
+
 .job-boards-icon:hover {
-  background-image: url('assets/job-board-white.svg');
+  background-image: url('assets/jobs-white.svg');
+}
+
+.jobs-icon {
+  background-image: url('assets/job-board.svg')
 }
 
 .jobs-icon:hover {
@@ -305,6 +474,7 @@ ul {
 .link-button {
   border: none;
   color: #ffffff;
+  font-size: 16px;
   height: 50px;
   margin-top: 20px;
   width: 300px;
@@ -312,9 +482,9 @@ ul {
 
 .link-button-icon {
   float: left;
-  height: 10px;
+  height: 15px;
   margin-left: 5px;
-  width: 10px;
+  width: 15px;
 }
 
 .link-form-button {
@@ -332,9 +502,12 @@ ul {
 }
 
 .link-header-icon {
-  height: 25px;
+  display: inline-block;
+  height: 16px;
   margin-right: 5px;
-  width: 25px;
+  margin-bottom: 3px;
+  width: 16px;
+  vertical-align: middle;
 }
 
 .link-input {
@@ -364,6 +537,7 @@ ul {
 .link-text {
   color: #6D7380;
   font-size: 12px;
+  margin-left: 0;
 }
 
 .linkedin-button {
@@ -374,13 +548,17 @@ ul {
   margin-left: 109px;
 }
 
-.location-icon:hover {
+.locations-icon {
+  background-image: url("assets/location.svg");
+}
+
+.locations-icon:hover {
   background-image: url('assets/location-white.svg');
 }
 
 .nav-header {
-  font-size: 11px;
   color: #A4ADBD;
+  font-size: 11px;
 }
 
 .main,
@@ -393,21 +571,23 @@ ul {
 
 .menu-div {
   border-right: 1px solid gray;
+  background-image: url("assets/menu.svg");
+  background-size: 30px;
+  background-repeat:  no-repeat;
+  background-position: center;
 }
 
-.menu-icon:hover {
+.menu-div:hover {
   background-image: url('assets/menu-white.svg');
+  background-size: 30px;
+  background-repeat: no-repeat;
 }
 
 .nav-icons {
-  height: 15px;
-  margin: 0 17px 0 19px;
-  width: 15px;
-}
-
-.nav-header {
-  color: #A4ADBD;
-  font-size: 11px;
+  background-size: 17px;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  padding-left: 31px;
 }
 
 .nav-hr {
@@ -419,6 +599,7 @@ ul {
   border-bottom: solid #000000 1px;
   display: inline-block;
   margin: auto;
+  margin: 10px 0;
   width: 100%;
 }
 
@@ -432,7 +613,19 @@ ul {
   width: 100px;
 }
 
-.resume-icon:hover {
+.resources-icon {
+  background-image: url("assets/resources.svg");
+}
+
+.resources-icon:active {
+  background-image: url("assets/resources-checked.svg");
+}
+
+.resumes-icon {
+  background-image: url("assets/resume.svg");
+}
+
+.resumes-icon:hover {
   background-image: url('assets/resume-white.svg');
 }
 
@@ -448,8 +641,15 @@ ul {
 }
 
 .search {
+  background-image: url(assets/search.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 10px;
   border: none;
+  color: #b4b7ba;
+  font-size: 13px;
   height: 100%;
+  padding-left: 39px;
   width: 100%;
 }
 
@@ -469,12 +669,25 @@ ul {
   vertical-align: top;
 }
 
+.social-icon {
+  background-image: url("assets/social.svg");
+}
+
 .social-icon:hover {
   background-image: url('assets/social-white.svg');
 }
 
 .status {
   margin-left: 129px;
+}
+
+.summary {
+  border-bottom: 5px solid #46A5F4;
+  padding-bottom: 15px;
+}
+
+.tasks-icon {
+  background-image: url("assets/tasks.svg");
 }
 
 .tasks-icon:hover {
@@ -497,8 +710,16 @@ ul {
   background-color: #46AAE8;
 }
 
+.users-icon {
+  background-image: url("assets/users.svg");
+}
+
 .users-icon:hover {
   background-image: url('assets/users-white.svg');
+}
+
+.workflows-icon {
+  background-image: url("assets/workflow.svg");
 }
 
 .workflows-icon:hover {
