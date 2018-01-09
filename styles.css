@@ -444,7 +444,7 @@ ul {
   border: 1px solid gray;
   height: 750px;
   margin: 20px 43px;
-  width: 800px;
+  width: 65%;
 }
 
 .job-description-text {
@@ -477,7 +477,7 @@ ul {
   font-size: 16px;
   height: 50px;
   margin-top: 20px;
-  width: 300px;
+  width: 100%;
 }
 
 .link-button-icon {
@@ -491,7 +491,7 @@ ul {
   background-color: #68B4B8;
   border: none;
   color: #ffffff;
-  width: 50px;
+  width: 20%;
   margin-bottom: 20px;
 }
 
@@ -515,7 +515,11 @@ ul {
   height: 40px;
   margin-bottom: 20px;
   padding-left: 10px;
-  width: 300px;
+  width: 80%;
+}
+
+.link-input-email {
+  width: 100%;
 }
 
 .link-input-form {
@@ -531,13 +535,17 @@ ul {
   display: flex;
   flex-direction: column;
   float: right;
-  width: 300px;
+  width: 25%;
 }
 
 .link-text {
   color: #6D7380;
   font-size: 12px;
   margin-left: 0;
+}
+
+.link-text-email {
+  margin-left: 5px;
 }
 
 .linkedin-button {
@@ -559,6 +567,12 @@ ul {
 .nav-header {
   color: #A4ADBD;
   font-size: 11px;
+  padding-left: 15px;
+}
+
+
+.main-header {
+  margin-left: 15px; 
 }
 
 .main,
@@ -601,6 +615,10 @@ ul {
   margin: auto;
   margin: 10px 0;
   width: 100%;
+}
+
+.nav-ul {
+  margin-left: 15px;
 }
 
 .position-title {
@@ -725,3 +743,76 @@ ul {
 .workflows-icon:hover {
   background-image: url('assets/workflow-white.svg');
 }
+
+@media screen and (min-width: 1900px) {
+
+  nav {
+    height: 1398px;
+  }
+
+  .description-content-hr {
+      width: 990px;
+  }
+
+  .donut-graph {
+      margin-left: 90px;
+  }
+
+  .donut-graph-button {
+    margin-left: 400px;
+  }
+
+  .graph-line-left {
+    margin-left: 50px;
+    width: 695px;
+  }
+
+  .graph-line-right {
+    width: 755px;
+  }
+
+  .job-description {
+    margin: 20px 43px 20px 97px;
+  }
+
+  .job-description-title {
+    margin-bottom: 50px;
+  }
+
+  .intro-buttons-div {
+    margin-right: 40px;
+  }
+
+  .link-button {
+    width: 95%;
+  }
+
+  .link-form-button {
+    width: 17%;
+  }
+
+  .link-hr {
+    width: 90%;
+  }
+
+  .link-input {
+    width: 77%;
+  }
+
+  .link-input-email {
+    width: 95%;
+    margin-left: 4px;
+  }
+
+  .nav-ul{
+    margin-left: 20px;
+  }
+
+  .nav-header {
+    margin-left: 40px;
+    padding-left: 0;
+  }
+}
+
+
+
