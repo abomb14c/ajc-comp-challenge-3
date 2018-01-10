@@ -10,7 +10,7 @@ nav {
   background-color: #374050;
   color: #ffffff;
   float: left;
-  height: 1384px;
+  height: 1387px;
   margin: 0;
   position: relative;
   width: 15%;
@@ -71,7 +71,7 @@ ul {
   border-radius: 30px;
   float: right;
   height: 30px;
-  margin: 10px 200px;
+  margin: 10px 180px;
   width: 100px;
 }
 
@@ -94,6 +94,11 @@ ul {
 .bio-name {
   font-weight: 100;
   margin: 20px 0;
+}
+
+.bio-section {
+  border-bottom: 1px solid #000000;
+  width: 100%;
 }
 
 .calendar-div {
@@ -119,6 +124,10 @@ ul {
   background-image:  url("assets/calendar-white.svg");
 }
 
+/*.categories-section {
+  border-bottom: none;
+}*/
+
 .chart-text {
   fill: #62697B;
 }
@@ -128,19 +137,12 @@ ul {
   font-size: 0.5em;
   line-height: 1;
   text-anchor: middle;
-/*  -moz-transform: translateY(-0.25em);
-  -ms-transform: translateY(-0.25em);*/
-  /*-webkit-transform: translateY(-0.25em);
-  transform: translateY(-0.25em);*/
 }
 
 .chart-label {
   color: #62697B;
   font-size: 0.15em;
   text-anchor: middle;
- /* -moz-transform: translateY(0.7em);
-  -ms-transform: translateY(0.7em);
-  -webkit-transform: translateY(0.7em);*/
   transform: translateY(0.5em);
 }
 
@@ -179,7 +181,7 @@ ul {
 
 .description-content-hr {
   margin-left: 30px;
-  width: 720px;
+  width: 105%;
 }
 
 .description-content-text {
@@ -208,7 +210,7 @@ ul {
 
 .donut-graph-button {
   color: #62697B;
-  margin: 10px 270px;
+  margin: 10px 0 0 270px;
   border-radius: 30px;  
   height: 30px;
   width: 160px;
@@ -262,6 +264,8 @@ ul {
   flex-direction: row;
   justify-content: center;
   margin-top: 50px;
+  width: 94%;
+  margin-left: 39px;
 }
 
 .hamburger-div {
@@ -283,7 +287,11 @@ ul {
 }
 
 .heading-nav {
-  margin-top: 20px;
+  visibility: visible;
+}
+
+.heading-nav-button {
+  visibility: hidden;
 }
 
 .hiring-lead {
@@ -362,6 +370,7 @@ ul {
 }
 
 .intro-button-main {
+    background-color: #ffffff;
     background-image: url(assets/open.svg);
     background-size: 17px;
     background-repeat: no-repeat;
@@ -400,7 +409,7 @@ ul {
 
 .intro-nav {
   display: inline-block;
-  font-size: 12px;
+  font-size: 16px;
   margin-left: 30px;
 }
 
@@ -520,6 +529,7 @@ ul {
 
 .link-input-email {
   width: 100%;
+  margin-bottom: 0;
 }
 
 .link-input-form {
@@ -615,6 +625,10 @@ ul {
   margin: auto;
   margin: 10px 0;
   width: 100%;
+}
+
+.categories-section {
+  border-bottom: none;
 }
 
 .nav-ul {
@@ -815,4 +829,855 @@ ul {
 }
 
 
+@media screen and (max-width: 1298px) {
 
+  nav {
+    height: 1366px;
+  }
+
+  .bar-chart {
+    height: 165px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+
+  .bar-chart-button {
+    margin: 10px 130px;
+  }
+}
+
+@media screen and (max-width: 1298px) {
+
+  .bar-chart {
+    height: 150px;
+  }
+
+  .donut-graph {
+    height: 175px;
+  }
+
+  .donut-graph-button {
+    margin-left: 230px;
+  }
+
+  .top-icons {
+    background-size: 20px;
+  }
+
+  .top-icons:hover {
+    background-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1175px){
+
+  .job-description {
+    height: 770px;
+  }
+
+  .link-input {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1106px){
+  
+  nav {
+    height: 1355px;
+  }
+
+  .graph-section {
+    height: 333px;
+  }
+
+  .job-description {
+    height: 790px;
+    margin-left: 35px;
+  }
+
+  .resume-section {
+    height: 830px;
+  }
+}
+
+@media screen and (max-width: 1086px){
+
+  nav {
+    height: 1335px;
+  }
+
+  .donut-graph {
+    height: 150px;
+  }
+
+  .donut-graph-button {
+    margin-left: 190px;
+  }
+
+  .bar-chart {
+    height: 125px;
+  }
+
+  .bar-chart-button {
+    margin: 10px 114px;
+  }
+
+  .graph-section {
+    height: 313px;
+  }
+
+  .intro-nav {
+    font-size: 14px;
+  }
+
+  .job-description {
+    margin-right: 30px;
+  }
+
+  .nav-header {
+    margin-left: 10px;
+  }
+
+  .nav-ul {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 1038px){
+ 
+  nav {
+    height: 1355px;
+  }
+
+  .job-description {
+    height: 800px;
+  }
+
+  .resume-section { 
+    height: 850px;
+  }
+}
+@media screen and (max-width: 1025px) {
+
+  nav {
+    height: 1349px;
+  }
+
+}
+
+@media screen and (max-width: 990px){
+
+  nav {
+    height: 1385px;
+  }
+
+  .job-description {
+    height: 830px;
+  }
+
+  .nav-ul {
+    margin-left: 0;
+  }
+
+  .resume-section {
+    height: 880px;
+  }
+}
+
+@media screen and (max-width: 978px) {
+
+  .intro-nav {
+    font-size: 12px;
+  }
+
+  .job-description {
+    height: 840px;
+  }
+
+@media screen and (max-width: 940px) {
+
+  nav {
+    height: 1415px;
+  }
+
+  .bar-chart {
+    height: 120px;
+    margin-top: 5px;
+  }
+
+  .donut-graph {
+    height: 130px;
+  }
+
+  .donut-graph-button {
+    margin-left: 160px;
+  }
+
+  .job-description {
+    height: 870px;
+  }
+
+  .nav-icons {
+    padding-left: 20px;
+  }
+
+  .resume-section {
+    height: 910px;
+  }
+}
+
+@media screen and (max-width: 872px) {
+
+  nav {
+    height: 1445px;
+  }
+
+  .intro-nav {
+    font-size: 11px;
+    margin-left: 20px;
+  }
+
+  .graph-section {
+    height: 283px;
+  }
+
+  .job-description {
+    height: 900px;
+    margin-right: 15px;
+  }
+
+  .job-description-text {
+    margin-left: 67px;
+  }
+
+  .link-button {
+    font-size: 14px;
+  }
+
+  .link-input {
+    font-size: 10px;
+  }
+
+  .resume-section {
+    height: 970px;
+  }
+}
+
+@media screen and (max-width: 863px) {
+  .job-description {
+    height: 920px;
+  }
+}
+
+@media screen and (max-width: 858px) {
+
+  .bar-chart {
+    height: 110px;
+  }
+
+  .bar-chart-button {
+    margin:10px 94px;
+  }
+
+  .donut-graph {
+    height: 120px;
+  }
+
+  .donut-graph-button {
+    margin-left: 140px;
+  }
+
+  .graph-section-border {
+    width: 91%;
+  }
+
+@media screen and (max-width: 825px) {
+
+  nav {
+    height: 1465px;
+  }
+
+  .job-description {
+    height: 950px;
+  }
+
+  .resume-section {
+    height: 990px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  nav {
+    height: 1644px;
+  }
+
+  .bar-chart {
+    margin-top: 30px;
+    margin-right: 110px;
+    height: 130px;
+  }
+
+  .bar-chart-button {
+    position: relative;
+    top: 15px;
+    margin-right: 305px;
+  }
+
+  .donut-graph {
+    margin-left: 70px;
+  }
+
+  .donut-graph-button {
+    margin-left: 248px;
+    position: relative;
+    bottom: 160px;
+  }
+
+  .donut-graphs {
+    display: block;
+  }
+
+  .graph-section {
+    height: 463px;
+  }
+
+  .graph-section-border {
+    margin-top: 100px;
+  }
+
+  .nav-icons {
+    background-size: 15px;
+    font-size: 10px;
+  }
+
+}
+
+  .job-description-text {
+    margin-left: 19%;
+  }
+
+
+@media screen and (max-width: 772px) {
+  
+  nav {
+    height: 1639px;
+  }
+
+  .intro-nav {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+
+  .job-description-text {
+    margin-left: 16%;
+  }
+
+  .profile-pic {
+    height: 80px;
+    width: 80px;
+  }
+
+  .top-icons {
+    width: 10%;
+    background-size: 15px;
+  }
+
+  .job-description-text {
+    margin-left: 17%;
+  }
+
+  .link-form-button {
+    font-size: 10px;
+  }
+}
+
+
+@media screen and (max-width: 745px) {
+
+  .job-description {
+    height: 970px;
+  }
+
+  .resume-section {
+    height: 1010px;
+  }
+
+@media screen and (max-width: 690px) {
+  
+  .bar-chart {
+    margin-right: 95px;
+  }
+
+  .bar-chart-button {
+    margin-right: 275px;
+  }
+
+  .donut-graph {
+    margin-left: 40px;
+  }
+
+  .donut-graph-button {
+    margin-left: 183px;
+  }
+
+  .link-form-button {
+    font-size: 8px;
+  }
+
+  .job-description-text {
+    margin-left: 7%;
+  }
+
+  .resume-section {
+    height: 1036px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .job-description {
+    height: 1000px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  
+  nav {
+    height: 1750px;
+  }
+
+  .bar-chart {
+    margin-right: 77px;
+  }
+
+  .bar-chart-button {
+    margin-right: 239px;
+  }
+
+  .job-description {
+    height: 1050px;
+  }
+
+  .resume-section {
+    height: 1100px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+
+  nav {
+    width: 100%;
+    height: 155px;
+  }
+
+  section {
+    width: 100%;
+  }
+
+  .bar-chart {
+    height: 150px;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+  .bar-chart-button {
+    margin: 30px 264px 0px 0px;
+  }
+
+  .bio-article {
+    margin-top : 0;
+  }
+
+  .bio-name {
+    margin-top: 5px;
+  }
+
+  .bio-section, 
+  .nav-sections {
+    border-bottom: none;
+  }
+
+  .description-content-div {
+    flex-direction: column;
+  }
+
+  .description-content-hr {
+    width: 90%;
+  }
+
+  .description-content-text {
+    margin: auto;
+    padding: 6px 35px;
+  }
+
+  .description-content-title {
+    margin: auto;
+  }
+
+  .description-header {
+    align-items: center;
+  }
+
+  .description-header-text {
+    margin-left: 41px;
+  }
+
+  .donut-graph {
+    display: block;
+    height: 175px;
+    margin:auto;
+  }
+
+  .donut-graph-button {
+   margin: 0;
+   margin-left: 236px;
+  }
+
+  .graph-section {
+    height: 914px;
+  }
+
+  .graph-section-border {
+    margin-top: 100px
+  }
+
+  .heading-nav {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .heading-nav-button {
+    background-color: #ffffff;
+    border: 1px solid gray;
+    visibility: visible;
+    width: 80px;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 278px;
+    padding-top: 4px;
+    border-radius: 33px;
+    margin-top: 5px;
+  }
+
+  .heading-nav-button:hover {
+    background-color: #46A5F4;
+    color: #ffffff;
+  }
+
+  .heading-nav-button:hover .heading-nav {
+    color: #000000;
+    display: block;
+  }
+
+  .intro-button-main {
+    height: 20px;
+    width: 65px; 
+    background-size: 10px;
+    background-color: #ffffff;
+    font-size: 10px;
+  }
+  
+  .intro-buttons {
+    height: 20px;
+    width: 20px;
+    background-size: 10px;
+  }
+
+  .intro-buttons-div {
+    margin-top: 0;
+    float: left;
+    margin-left: 244px;
+    display: block;
+  }
+  
+  .intro-heading {
+    display: block;
+    text-align: center;
+    margin: 16px 0 10px 37px;
+  }
+
+  .intro-nav {
+    display: block;
+    border-bottom: none;
+    margin: 10px;
+  }
+
+  .intro-nav:hover {
+    color: #000000;
+    border-bottom: none;
+  }
+  
+  .intro-text-div {
+    margin: 40px 0 0 228px;
+  }
+
+  .job-description {
+    width: 90%;
+    height: 760px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .job-description-text {
+    margin-left: 30px;
+  }
+
+  .link-section {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .link-button {
+    margin-left: 60px;
+  }
+
+  .link-hr {
+    width: 90%;
+    margin-left: 40px;
+  }
+
+  .link-input {
+    width: 293px;
+    margin-left: 33px;
+  }
+
+  .link-text {
+    margin-left: 50px;
+  }
+
+  .nav-header {
+    margin: 0;
+    padding: 0;
+    color: #46A5F4;
+  }
+
+  .nav-header:hover {
+    color: #ffffff;
+  }
+
+  .nav-icons {
+    padding: 0;
+    background-image: none;
+    text-align: left;
+    margin-left: 5px;
+  }
+
+  .nav-sections {
+    border: 1px solid gray;
+    background-color: #ffffff;
+    display: inline-block;
+    flex-direction: row;
+    height: 50px;
+    width: 33.9%;
+    margin: -4px;
+    padding-top: 18px;
+    text-align: center;
+  }
+
+  .nav-sections:hover {
+    background-color: #46A5F4;
+  }
+
+  .nav-sections:hover .nav-ul {
+    display: block;
+  }
+
+  .nav-ul {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 100px;
+    z-index: 1;
+  }
+
+  .profile-pic {
+    height: 60px;
+    margin-top: 10px;
+    width: 60px;
+  }
+
+  .search {
+    background-size: 15px;
+    font-size: 12px;
+    padding-left: 30px;
+  }
+
+  .search-section {
+    margin-top: 30px;
+  }
+
+  .summary {
+    padding: 0;
+  }
+
+  .top-icons {
+    background-size: 15px;
+    width: 15%;
+  }
+
+  .top-icons:hover {
+    background-size: 15px;
+  }
+
+  .resume-section {
+    flex-direction: column;
+    height: 1620px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  
+  .bar-chart {
+    margin-right: 50px;
+  }
+
+  .bar-chart-button {
+    margin: 30px 204px 0px 0px;
+   }
+
+  .donut-graph-button {
+    margin-left: 176px;
+   }
+
+  .heading-nav-button {
+    margin-left: 208px;
+  }
+
+  .intro-buttons-div {
+    margin-left: 164px;
+  }
+
+  .intro-heading {
+     margin-left: 0;
+  }
+  .intro-text-div {
+    margin: 40px 0 0 156px;
+  }
+
+  .nav-sections {
+    margin: -3px;
+  }
+
+  .job-description {
+    height: 800px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+
+  .bar-chart-button {
+    margin: 30px 154px 0px 0px;
+  }
+
+  .bar-chart {
+    margin-right: 23px;
+  }
+
+  .donut-graph-button {
+    margin-left: 136px;
+  }
+
+  .intro-buttons-div {
+    margin-left: 123px;
+  }
+
+  .intro-text-div {
+    margin: 40px 0 0 116px;
+  }
+
+  .heading-nav-button {
+    margin-left: 171px;
+  }
+
+  .link-button {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+
+  .bar-chart {
+    margin-right: 30px;
+  }
+
+  .bar-chart-button {
+    margin-right: 166px;
+  }
+
+  .donut-graph-button {
+    margin-left: 126px;
+  }
+
+  .heading-nav-button {
+    margin-left: 178px;
+  } 
+
+  .intro-buttons-div {
+    margin-left: 142px;
+  }
+
+  .intro-text-div {
+    margin-left: 128px;
+  }
+
+  .graph-section-border {
+    margin-left: 19px;
+  }
+
+  .job-description {
+    height: 800px;
+  }
+
+  .link-button {
+    margin-left: 40px;
+  }
+
+  .nav-sections {
+    margin: -3px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+
+  .bar-chart {
+    margin-right: 20px;
+  }
+
+  .bar-chart-button {
+    margin-right: 146px;
+  }
+
+  .donut-graph-button {
+    margin-left: 106px;
+  }
+
+  .intro-buttons-div {
+    margin-left: 102px;
+  }
+
+  .intro-text-div {
+    margin-left: 88px;
+  }
+
+  .intro-heading {
+   margin: 16px 0 10px 0px;
+  }
+
+  .heading-nav-button {
+    margin-left: 148px;
+  }
+
+  .job-description {
+    height: 840px;
+  }
+
+  .resume-section {
+    height: 1670px;
+  }
